@@ -1,0 +1,77 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: 'Lato', 'Lato Fallback';
+  --font-serif: 'Playfair Display', 'Playfair Display Fallback';
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+
+  /* Pistacol brand tokens */
+  --color-forest: var(--forest);
+  --color-forest-dark: var(--forest-dark);
+  --color-forest-light: var(--forest-light);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-cream: var(--cream);
+}
+
+:root {
+  color-scheme: light;
+
+  /* Pistacol brand palette */
+  --forest: #1e3a1e;
+  --forest-dark: #152a15;
+  --forest-light: #2d5a2d;
+  --gold: #c9a227;
+  --gold-light: #e2c265;
+  --cream: #f5f0e8;
+
+  --background: #f5f0e8;
+  --foreground: #1a1a1a;
+  --card: #ffffff;
+  --card-foreground: #1a1a1a;
+  --primary: #1e3a1e;
+  --primary-foreground: #f5f0e8;
+  --secondary: #c9a227;
+  --secondary-foreground: #1a1a1a;
+  --muted: #ede8df;
+  --muted-foreground: #5a5040;
+  --accent: #c9a227;
+  --accent-foreground: #1a1a1a;
+  --border: #d8cfc0;
+  --ring: #c9a227;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+}
