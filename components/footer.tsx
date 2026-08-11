@@ -38,7 +38,7 @@ export default function Footer() {
             className="h-44 w-auto object-contain mb-4"
           />
           <p className="text-[#a8c0a0] text-sm leading-relaxed">
-            Pistachos premium de San Juan, Argentina. 100% naturales, sin TAC, tostados y salados.
+            Pistachos premium de San Juan, Argentina. 100% naturales, libres de gluten, tostados y salados.
           </p>
         </div>
 
@@ -116,8 +116,7 @@ export default function Footer() {
             Certificaciones
           </h3>
           <div className="flex flex-wrap gap-2">
-            <span className="border border-[#c9a227]/40 text-[#c9a227] text-xs px-3 py-1 rounded-full">Sin TAC</span>
-            <span className="border border-[#c9a227]/40 text-[#c9a227] text-xs px-3 py-1 rounded-full">Sin Gluten</span>
+            <span className="border border-[#c9a227]/40 text-[#c9a227] text-xs px-3 py-1 rounded-full">Libre de Gluten</span>
             <span className="border border-[#c9a227]/40 text-[#c9a227] text-xs px-3 py-1 rounded-full">100% Natural</span>
             <span className="border border-[#c9a227]/40 text-[#c9a227] text-xs px-3 py-1 rounded-full">Origen San Juan</span>
           </div>

@@ -37,7 +37,7 @@ const products: Product[] = [
     id: 'bolsa-5kg',
     name: 'Pistachos Tostados y Salados',
     detail: 'Bolsa · 5 kg',
-    description: 'Formato familiar o para negocios. Sin TAC, sin aditivos, con toda la calidad Pistacol.',
+    description: 'Formato familiar o para negocios. Libre de Gluten, sin aditivos, con toda la calidad Pistacol.',
     image: '/images/producto-bolsa-5kg.png',
   },
   {
@@ -169,7 +169,7 @@ export default function Productos() {
             Descubrí nuestra línea premium
           </h2>
           <p className="text-[#5a5040] mt-4 max-w-xl mx-auto leading-relaxed">
-            Todos nuestros productos son tostados y salados, sin TAC, sin gluten y sin conservantes. Consultá por tu región para realizar tu pedido.
+            Todos nuestros productos son tostados y salados, libres de gluten y sin conservantes. Consultá por tu región para realizar tu pedido.
           </p>
         </div>
 
@@ -193,9 +193,9 @@ export default function Productos() {
                     {product.badge}
                   </span>
                 )}
-                {/* SIN TAC badge */}
+                {/* Libre de Gluten badge */}
                 <span className="absolute top-3 right-3 bg-[#1e3a1e]/90 text-[#e2c265] text-xs font-bold px-2.5 py-1 rounded-full">
-                  Sin TAC
+                  Libre de Gluten
                 </span>
               </div>
 

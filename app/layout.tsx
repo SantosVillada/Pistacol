@@ -16,8 +16,8 @@ const _lato = Lato({
 export const metadata: Metadata = {
   title: 'Pistacol — Pistachos Premium de San Juan, Argentina',
   description:
-    'Pistacol produce y distribuye pistachos tostados y salados de la más alta calidad desde San Juan, Argentina. Sin TAC, sin conservantes, 100% natural. También distribuimos aceitunas rellenas con pistacho.',
-  keywords: 'pistachos, pistachos premium, San Juan, Argentina, sin gluten, sin TAC, tostado, salado, aceitunas rellenas',
+    'Pistacol produce y distribuye pistachos tostados y salados de la más alta calidad desde San Juan, Argentina. Libre de Gluten, sin conservantes, 100% natural. También distribuimos aceitunas rellenas con pistacho.',
+  keywords: 'pistachos, pistachos premium, San Juan, Argentina, libre de gluten, tostado, salado, aceitunas rellenas',
   generator: 'v0.app',
   icons: {
     icon: '/icon.png',
