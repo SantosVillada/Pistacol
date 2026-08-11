@@ -44,16 +44,13 @@ export default function Hero() {
           {/* Description */}
           <p className="text-[#d4cdbf] text-lg leading-relaxed mb-10 max-w-md">
             Seleccionamos los mejores pistachos de origen sanjuanino para llevar a tu mesa un producto
-            premium, natural y delicioso. Sin TAC, sin conservantes, 100% natural.
+            premium, natural y delicioso. Libre de Gluten, sin conservantes, 100% natural.
           </p>
 
-          {/* Badge SIN TAC */}
+          {/* Badge Libre de Gluten */}
           <div className="flex items-center gap-3 mb-10">
             <span className="border border-[#c9a227] text-[#c9a227] text-xs font-bold tracking-widest uppercase px-4 py-1.5 rounded-full">
-              Sin TAC
-            </span>
-            <span className="border border-[#c9a227] text-[#c9a227] text-xs font-bold tracking-widest uppercase px-4 py-1.5 rounded-full">
-              Sin Gluten
+              Libre de Gluten
             </span>
             <span className="border border-[#c9a227] text-[#c9a227] text-xs font-bold tracking-widest uppercase px-4 py-1.5 rounded-full">
               100% Natural

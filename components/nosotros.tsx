@@ -22,8 +22,8 @@ export default function Nosotros() {
             desde el cultivo hasta el envasado, para que disfrutes de un producto único.
           </p>
           <p className="text-[#5a5040] text-base leading-relaxed mb-5">
-            Nuestros pistachos son <strong className="text-[#1e3a1e]">100% naturales, sin conservantes y sin TAC</strong> —
-            libres de Trigo, Avena y Cebada. Recientemente expandimos nuestra distribución a
+            Nuestros pistachos son <strong className="text-[#1e3a1e]">100% naturales, sin conservantes y libres de Gluten</strong>.
+            Recientemente expandimos nuestra distribución a
             <strong className="text-[#1e3a1e]"> Córdoba</strong>, llevando el sabor premium de San Juan
             a todo el país.
           </p>
@@ -45,7 +45,7 @@ export default function Nosotros() {
             <div className="h-12 w-px bg-[#c9a227]/40 shrink-0" />
             <div className="text-center min-w-0">
               <p className="text-3xl sm:text-4xl font-bold text-[#1e3a1e]" style={{ fontFamily: 'Playfair Display, serif' }}>100%</p>
-              <p className="text-[#5a5040] text-[10px] sm:text-xs tracking-wide uppercase">Natural y Sin TAC</p>
+              <p className="text-[#5a5040] text-[10px] sm:text-xs tracking-wide uppercase">Natural y Libre de Gluten</p>
             </div>
           </div>
         </div>

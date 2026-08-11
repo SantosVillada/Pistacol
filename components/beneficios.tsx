@@ -100,7 +100,7 @@ export default function Beneficios() {
           ))}
         </div>
 
-        {/* SIN TAC highlight */}
+        {/* Libre de Gluten highlight */}
         <div className="mt-16 border border-[#c9a227]/30 rounded-xl p-8 flex flex-col md:flex-row items-center gap-8 bg-[#152a15]/40">
           <div className="flex-shrink-0 w-20 h-20 rounded-full border-2 border-[#c9a227] flex items-center justify-center">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="w-8 h-8 text-[#c9a227]" aria-hidden="true">
@@ -109,14 +109,13 @@ export default function Beneficios() {
           </div>
           <div className="text-center md:text-left">
             <div className="flex items-center gap-3 justify-center md:justify-start mb-2">
-              <span className="bg-[#c9a227] text-[#1e3a1e] text-sm font-bold px-4 py-1 rounded-full tracking-widest uppercase">Sin TAC</span>
-              <span className="bg-[#c9a227]/20 text-[#e2c265] text-sm font-bold px-4 py-1 rounded-full tracking-widest uppercase">Sin Gluten</span>
+              <span className="bg-[#c9a227] text-[#1e3a1e] text-sm font-bold px-4 py-1 rounded-full tracking-widest uppercase">Libre de Gluten</span>
             </div>
             <h3 className="text-white font-bold text-xl mb-1" style={{ fontFamily: 'Playfair Display, serif' }}>
               Apto para celíacos e intolerancias
             </h3>
             <p className="text-[#a8c0a0] text-sm leading-relaxed max-w-2xl">
-              Nuestros pistachos son libres de Trigo, Avena y Cebada (TAC) y están certificados Sin Gluten.
+              Nuestros pistachos son Libres de Gluten y están certificados.
               Una opción segura y deliciosa para personas con enfermedad celíaca o sensibilidad al gluten.
             </p>
           </div>
