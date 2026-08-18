@@ -28,7 +28,7 @@ export default function Origen() {
             <div className="aspect-[4/3] relative">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&q=80"
+                src="/images/origen-sanjuan.png"
                 alt="Paisaje de San Juan, Argentina — Andes y valles áridos"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />
@@ -66,8 +66,8 @@ export default function Origen() {
             <div className="aspect-[4/3] relative">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80"
-                alt="Paisaje de Córdoba, Argentina — sierras y valles"
+                src="/images/origen-cordoba.png"
+                alt="Paisaje de Córdoba, Argentina — sierras y lago"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#152a15]/90 via-[#1e3a1e]/40 to-transparent" />

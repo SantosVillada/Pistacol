@@ -18,8 +18,8 @@ export default function Nosotros() {
           <div className="h-0.5 w-16 bg-[#c9a227] mb-8" />
           <p className="text-[#5a5040] text-base leading-relaxed mb-5">
             En Pistacol trabajamos desde el corazón de San Juan para ofrecer pistachos de la más alta calidad.
-            Con más de 4 años de experiencia en la producción y distribución, cuidamos cada etapa del proceso,
-            desde el cultivo hasta el envasado, para que disfrutes de un producto único.
+            Con más de 4 años de experiencia en la distribución y el fraccionamiento, cuidamos cada etapa del proceso,
+            desde la selección hasta el envasado, para que disfrutes de un producto único.
           </p>
           <p className="text-[#5a5040] text-base leading-relaxed mb-5">
             Nuestros pistachos son <strong className="text-[#1e3a1e]">100% naturales, sin conservantes y libres de Gluten</strong>.
