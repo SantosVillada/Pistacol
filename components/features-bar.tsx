@@ -16,8 +16,9 @@ const features = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z" />
       </svg>
     ),
-    title: 'Origen San Juan',
-    description: 'Producidos en el corazón pistachero de Argentina',
+    title: 'Origen',
+    titleLine2: 'San\u00a0Juan',
+    description: 'Distribuidos desde el corazón pistachero de Argentina',
   },
   {
     icon: (
@@ -47,7 +48,15 @@ export default function FeaturesBar() {
           <div key={f.title} className="flex items-start gap-4 lg:px-8 first:lg:pl-0 last:lg:pr-0">
             <div className="text-[#c9a227] mt-0.5 flex-shrink-0">{f.icon}</div>
             <div>
-              <p className="text-[#e2c265] font-bold text-sm tracking-wide uppercase">{f.title}</p>
+              <p className="text-[#e2c265] font-bold text-sm tracking-wide uppercase">
+                {f.title}
+                {f.titleLine2 && (
+                  <>
+                    <br />
+                    {f.titleLine2}
+                  </>
+                )}
+              </p>
               <p className="text-[#a8c0a0] text-xs leading-relaxed mt-0.5">{f.description}</p>
             </div>
           </div>
