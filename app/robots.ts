@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://pistacol.vercel.app/sitemap.xml',
-    host: 'https://pistacol.vercel.app',
+    sitemap: 'https://pistacol.com/sitemap.xml',
+    host: 'https://pistacol.com',
   }
 }

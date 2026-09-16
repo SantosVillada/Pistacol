@@ -9,7 +9,7 @@ import Origen from '@/components/origen'
 import Contacto from '@/components/contacto'
 import Footer from '@/components/footer'
 
-const SITE_URL = 'https://pistacol.vercel.app'
+const SITE_URL = 'https://pistacol.com'
 
 const jsonLd = {
   '@context': 'https://schema.org',

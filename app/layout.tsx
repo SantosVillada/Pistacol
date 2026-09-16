@@ -14,7 +14,7 @@ const _lato = Lato({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://pistacol.vercel.app'),
+  metadataBase: new URL('https://pistacol.com'),
   title: {
     default: 'Pistacol — Pistachos Premium de San Juan, Argentina',
     template: '%s | Pistacol',

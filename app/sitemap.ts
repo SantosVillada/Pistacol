@@ -3,7 +3,7 @@ import type { MetadataRoute } from 'next'
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://pistacol.vercel.app',
+      url: 'https://pistacol.com',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 1,
